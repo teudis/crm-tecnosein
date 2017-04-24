@@ -1,0 +1,74 @@
+.input-field .prefix.active, .dropdown-content li > a, .dropdown-content li > span, .secondary-content > i {
+    color: #FF5252;
+}
+
+.collapsible-header i {
+    margin-right: 0;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+#splash {
+    height: 700px;
+    background: rgba(226, 226, 226, 1);
+    background: -moz-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 0.99) 2%, rgba(209, 209, 209, 0.85) 51%, rgba(254, 254, 254, 0.7) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(226, 226, 226, 1)), color-stop(2%, rgba(219, 219, 219, 0.99)), color-stop(51%, rgba(209, 209, 209, 0.85)), color-stop(100%, rgba(254, 254, 254, 0.7)));
+    background: -webkit-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 0.99) 2%, rgba(209, 209, 209, 0.85) 51%, rgba(254, 254, 254, 0.7) 100%);
+    background: -o-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 0.99) 2%, rgba(209, 209, 209, 0.85) 51%, rgba(254, 254, 254, 0.7) 100%);
+    background: -ms-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 0.99) 2%, rgba(209, 209, 209, 0.85) 51%, rgba(254, 254, 254, 0.7) 100%);
+    background: linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 0.99) 2%, rgba(209, 209, 209, 0.85) 51%, rgba(254, 254, 254, 0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0);
+}
+
+.switch label input[type=checkbox]:checked + .lever {
+    background-color: #FFCDD2;
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+    background-color: #FF5252;
+}
+
+.modal {
+    width: 80%;
+}
+
+html,body {
+    height:100%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+/*----------------------------------------
+    Login Page
+------------------------------------------*/
+
+
+
+.login-form {
+  width: 280px;  
+ 
+}
+.login-form-text{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+.profile-image-login{
+  width: 100px;
+  height: 100px !important;
+}
+
+.login-text {
+  margin-top: -6px;
+  margin-left: -6px !important;
+}
+
+
+
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
